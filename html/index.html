@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Play" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/mystyle.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-4"></div>
+      <div class="col-2">
+        <h1 class="">Break Length </h1>
+        <div class="col-4">
+          <button class="btn" id="breakMinus">-</button>
+        </div>
+        <div class="col-4">
+          <div id="breakLength"></div>
+        </div>
+        <div class="col-4">
+          <button class="btn" id="breakPlus">+</button>
+        </div>
+      </div>
+      <div class="col-2">
+        <h1>Session Length</h1>
+        <div class="col-4">
+          <button class="btn" id="sessionMinus">-</button>
+        </div>
+        <div class="col-4">
+          <div id="sessionLength"></div>
+        </div>
+        <div class="col-4">
+          <button class="btn" id="sessionPlus">+</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+      </div>
+      <div class="col-4 text-center">
+        <button id="start">
+          <h1 id="timer">Session</h1>
+          <span id="session"></span>
+        </button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-4"></div>
+      <div id="last" class="col-4 text-center">
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+    <br>
+    <br>
+  </div>
+</body>
